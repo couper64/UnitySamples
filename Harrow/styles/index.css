@@ -1,0 +1,96 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 54px;
+    width: 100%;
+}
+
+body {
+    align-content: center;
+    margin: auto;
+    max-width: 1000px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        li a.active {
+            background-color: #2690f2;
+        }
+
+main {
+    text-align: center;
+}
+
+    main h1 {
+        padding: 16px 0;
+    }
+
+    main p {
+        padding: 8px 0;
+    }
+
+.youtube-presentation {
+    background-color: white;
+    background-image: url("../../LightweightShaderGraph/Screenshots/project_preview_0.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 64px;
+}
+
+iframe {
+    width: 640px;
+    height: 360px;
+}
+
+.project-description {
+    max-width: 680px;
+    padding: 64px 0px;
+    margin: auto;
+    text-align: justify;
+}
+
+footer {
+    height: 48px;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+    footer p {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
