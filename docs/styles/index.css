@@ -15,7 +15,7 @@ body {
     max-width: 1000px;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
@@ -25,11 +25,11 @@ ul {
     width: 100%;
 }
 
-li {
+nav ul li {
     float: left;
 }
 
-    li a {
+    nav ul li a {
         display: block;
         color: white;
         text-align: center;
@@ -37,11 +37,11 @@ li {
         text-decoration: none;
     }
 
-        li a:hover {
+        nav ul li a:hover {
             background-color: #111;
         }
 
-        li a.active {
+        nav ul li a.active {
             background-color: #2690f2;
         }
 
@@ -59,7 +59,6 @@ main {
 
 .youtube-presentation {
     background-color: white;
-    background-image: url("../images/project_preview_0.PNG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -77,6 +76,16 @@ iframe {
     margin: auto;
     text-align: justify;
 }
+
+    .project-description ul {
+        list-style-type: square;
+        margin: 16px 0px;
+        padding: 16px 0px;
+    }
+
+        .project-description ul li {
+            padding: 16px 0px;
+        }
 
 footer {
     height: 48px;
