@@ -1,2 +1,3 @@
-# UnitySamples
-Unity Samples made by me for reference.
+# Unity Code Samples
+
+Code snippets for reference.
